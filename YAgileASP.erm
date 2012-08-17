@@ -97,7 +97,7 @@
 			<id></id>
 			<height>-1</height>
 			<width>-1</width>
-				<font_name>微软雅黑</font_name>
+				<font_name>宋体</font_name>
 				<font_size>9</font_size>
 			<x>50</x>
 			<y>50</y>
@@ -110,7 +110,7 @@
 			</connections>
 			<display>false</display>
 			<creation_date>2012-07-10 21:48:44</creation_date>
-			<updated_date>2012-08-15 21:26:36</updated_date>
+			<updated_date>2012-08-17 17:43:04</updated_date>
 			<model_property>
 				<name>Project Name</name>
 				<value></value>
@@ -1537,7 +1537,7 @@
 							</column_data>
 							<column_data>
 								<column_id>15</column_id>
-								<value></value>
+								<value>icon-systemMenu</value>
 							</column_data>
 							<column_data>
 								<column_id>16</column_id>
@@ -1555,6 +1555,36 @@
 							</column_data>
 							<column_data>
 								<column_id>12</column_id>
+								<value>系统管理</value>
+							</column_data>
+							<column_data>
+								<column_id>13</column_id>
+								<value></value>
+							</column_data>
+							<column_data>
+								<column_id>14</column_id>
+								<value></value>
+							</column_data>
+							<column_data>
+								<column_id>15</column_id>
+								<value>icon-system</value>
+							</column_data>
+							<column_data>
+								<column_id>16</column_id>
+								<value></value>
+							</column_data>
+							<column_data>
+								<column_id>17</column_id>
+								<value></value>
+							</column_data>
+						</data>
+						<data>
+							<column_data>
+								<column_id>11</column_id>
+								<value>3</value>
+							</column_data>
+							<column_data>
+								<column_id>12</column_id>
 								<value>系统菜单</value>
 							</column_data>
 							<column_data>
@@ -1567,7 +1597,37 @@
 							</column_data>
 							<column_data>
 								<column_id>15</column_id>
-								<value>icon-menu</value>
+								<value>icon-systemSetting</value>
+							</column_data>
+							<column_data>
+								<column_id>16</column_id>
+								<value></value>
+							</column_data>
+							<column_data>
+								<column_id>17</column_id>
+								<value></value>
+							</column_data>
+						</data>
+						<data>
+							<column_data>
+								<column_id>11</column_id>
+								<value>4</value>
+							</column_data>
+							<column_data>
+								<column_id>12</column_id>
+								<value>角色管理</value>
+							</column_data>
+							<column_data>
+								<column_id>13</column_id>
+								<value>sys/role/role_list.aspx</value>
+							</column_data>
+							<column_data>
+								<column_id>14</column_id>
+								<value>2</value>
+							</column_data>
+							<column_data>
+								<column_id>15</column_id>
+								<value>icon-role</value>
 							</column_data>
 							<column_data>
 								<column_id>16</column_id>
