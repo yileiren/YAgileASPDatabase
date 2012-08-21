@@ -110,7 +110,7 @@
 			</connections>
 			<display>false</display>
 			<creation_date>2012-07-10 21:48:44</creation_date>
-			<updated_date>2012-08-17 17:43:04</updated_date>
+			<updated_date>2012-08-21 13:29:44</updated_date>
 			<model_property>
 				<name>Project Name</name>
 				<value></value>
@@ -1237,7 +1237,7 @@
 			<connections>
 				<relation>
 					<id>1</id>
-					<source>2</source>
+					<source>3</source>
 					<target>4</target>
 					<child_cardinality>1..n</child_cardinality>
 					<parent_cardinality>1</parent_cardinality>
@@ -1254,7 +1254,7 @@
 				</relation>
 				<relation>
 					<id>2</id>
-					<source>3</source>
+					<source>2</source>
 					<target>4</target>
 					<child_cardinality>1..n</child_cardinality>
 					<parent_cardinality>1</parent_cardinality>
@@ -1280,7 +1280,7 @@
 				<normal_column>
 					<id>21</id>
 					<referenced_column>18</referenced_column>
-					<relation>2</relation>
+					<relation>1</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -1313,7 +1313,7 @@
 				<normal_column>
 					<id>22</id>
 					<referenced_column>11</referenced_column>
-					<relation>1</relation>
+					<relation>2</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -1628,6 +1628,36 @@
 							<column_data>
 								<column_id>15</column_id>
 								<value>icon-role</value>
+							</column_data>
+							<column_data>
+								<column_id>16</column_id>
+								<value></value>
+							</column_data>
+							<column_data>
+								<column_id>17</column_id>
+								<value></value>
+							</column_data>
+						</data>
+						<data>
+							<column_data>
+								<column_id>11</column_id>
+								<value>5</value>
+							</column_data>
+							<column_data>
+								<column_id>12</column_id>
+								<value>组织机构管理</value>
+							</column_data>
+							<column_data>
+								<column_id>13</column_id>
+								<value>sys/organization/organization_list.aspx</value>
+							</column_data>
+							<column_data>
+								<column_id>14</column_id>
+								<value>2</value>
+							</column_data>
+							<column_data>
+								<column_id>15</column_id>
+								<value>icon-organization</value>
 							</column_data>
 							<column_data>
 								<column_id>16</column_id>
