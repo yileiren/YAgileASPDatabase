@@ -97,7 +97,7 @@
 			<id></id>
 			<height>-1</height>
 			<width>-1</width>
-				<font_name>宋体</font_name>
+				<font_name>微软雅黑</font_name>
 				<font_size>9</font_size>
 			<x>50</x>
 			<y>50</y>
@@ -110,7 +110,7 @@
 			</connections>
 			<display>false</display>
 			<creation_date>2012-07-10 21:48:44</creation_date>
-			<updated_date>2012-08-21 13:29:44</updated_date>
+			<updated_date>2012-08-22 21:39:05</updated_date>
 			<model_property>
 				<name>Project Name</name>
 				<value></value>
@@ -359,13 +359,39 @@
 			<array_dimension>null</array_dimension>
 			<unsigned>false</unsigned>
 			<args></args>
+			<description>排序序号，控制显示顺序。</description>
+			<logical_name>序号</logical_name>
+			<physical_name>order</physical_name>
+			<type>integer</type>
+		</word>
+		<word>
+			<id>17</id>
+			<length>null</length>
+			<decimal>null</decimal>
+			<array>false</array>
+			<array_dimension>null</array_dimension>
+			<unsigned>false</unsigned>
+			<args></args>
+			<description>排序序号，用来控制显示顺序。</description>
+			<logical_name>序号</logical_name>
+			<physical_name>order</physical_name>
+			<type>integer</type>
+		</word>
+		<word>
+			<id>18</id>
+			<length>null</length>
+			<decimal>null</decimal>
+			<array>false</array>
+			<array_dimension>null</array_dimension>
+			<unsigned>false</unsigned>
+			<args></args>
 			<description>用来控制菜单的显示顺序。</description>
 			<logical_name>排序序号</logical_name>
 			<physical_name>order</physical_name>
 			<type>integer</type>
 		</word>
 		<word>
-			<id>17</id>
+			<id>19</id>
 			<length>null</length>
 			<decimal>null</decimal>
 			<array>false</array>
@@ -378,7 +404,7 @@
 			<type>integer</type>
 		</word>
 		<word>
-			<id>18</id>
+			<id>20</id>
 			<length>null</length>
 			<decimal>null</decimal>
 			<array>false</array>
@@ -391,7 +417,7 @@
 			<type>integer</type>
 		</word>
 		<word>
-			<id>19</id>
+			<id>21</id>
 			<length>200</length>
 			<decimal>null</decimal>
 			<array>false</array>
@@ -409,438 +435,6 @@
 	<contents>
 		<table>
 			<id>0</id>
-			<height>170</height>
-			<width>230</width>
-				<font_name>宋体</font_name>
-				<font_size>9</font_size>
-			<x>388</x>
-			<y>66</y>
-			<color>
-				<r>128</r>
-				<g>128</g>
-				<b>192</b>
-			</color>
-			<connections>
-				<relation>
-					<id>0</id>
-					<source>1</source>
-					<target>0</target>
-					<child_cardinality>1..n</child_cardinality>
-					<parent_cardinality>1</parent_cardinality>
-					<reference_for_pk>true</reference_for_pk>
-					<name></name>
-					<on_delete_action>RESTRICT</on_delete_action>
-					<on_update_action>RESTRICT</on_update_action>
-					<source_xp>-1</source_xp>
-					<source_yp>-1</source_yp>
-					<target_xp>-1</target_xp>
-					<target_yp>-1</target_yp>
-					<referenced_column>null</referenced_column>
-					<referenced_complex_unique_key>null</referenced_complex_unique_key>
-				</relation>
-			</connections>
-			<physical_name>org_user</physical_name>
-			<logical_name>用户表</logical_name>
-			<description></description>
-			<constraint></constraint>
-			<primary_key_name></primary_key_name>
-			<option></option>
-			<columns>
-				<normal_column>
-					<word_id>4</word_id>
-					<id>0</id>
-					<description></description>
-					<unique_key_name></unique_key_name>
-					<logical_name></logical_name>
-					<physical_name></physical_name>
-					<type>integer</type>
-					<constraint></constraint>
-					<default_value></default_value>
-					<auto_increment>true</auto_increment>
-					<foreign_key>false</foreign_key>
-					<not_null>true</not_null>
-					<primary_key>true</primary_key>
-					<unique_key>false</unique_key>
-					<character_set></character_set>
-					<collation></collation>
-					<sequence>
-						<name></name>
-						<schema></schema>
-						<increment></increment>
-						<min_value></min_value>
-						<max_value></max_value>
-						<start></start>
-						<cache></cache>
-						<cycle>false</cycle>
-						<order>false</order>
-						<description></description>
-						<data_type></data_type>
-						<decimal_size>0</decimal_size>
-					</sequence>
-				</normal_column>
-				<normal_column>
-					<word_id>10</word_id>
-					<id>1</id>
-					<description></description>
-					<unique_key_name></unique_key_name>
-					<logical_name></logical_name>
-					<physical_name></physical_name>
-					<type>nvarchar(n)</type>
-					<constraint></constraint>
-					<default_value></default_value>
-					<auto_increment>false</auto_increment>
-					<foreign_key>false</foreign_key>
-					<not_null>true</not_null>
-					<primary_key>false</primary_key>
-					<unique_key>true</unique_key>
-					<character_set></character_set>
-					<collation></collation>
-					<sequence>
-						<name></name>
-						<schema></schema>
-						<increment></increment>
-						<min_value></min_value>
-						<max_value></max_value>
-						<start></start>
-						<cache></cache>
-						<cycle>false</cycle>
-						<order>false</order>
-						<description></description>
-						<data_type></data_type>
-						<decimal_size>0</decimal_size>
-					</sequence>
-				</normal_column>
-				<normal_column>
-					<word_id>11</word_id>
-					<id>2</id>
-					<description></description>
-					<unique_key_name></unique_key_name>
-					<logical_name></logical_name>
-					<physical_name></physical_name>
-					<type>nvarchar(n)</type>
-					<constraint></constraint>
-					<default_value></default_value>
-					<auto_increment>false</auto_increment>
-					<foreign_key>false</foreign_key>
-					<not_null>true</not_null>
-					<primary_key>false</primary_key>
-					<unique_key>false</unique_key>
-					<character_set></character_set>
-					<collation></collation>
-					<sequence>
-						<name></name>
-						<schema></schema>
-						<increment></increment>
-						<min_value></min_value>
-						<max_value></max_value>
-						<start></start>
-						<cache></cache>
-						<cycle>false</cycle>
-						<order>false</order>
-						<description></description>
-						<data_type></data_type>
-						<decimal_size>0</decimal_size>
-					</sequence>
-				</normal_column>
-				<normal_column>
-					<word_id>12</word_id>
-					<id>3</id>
-					<description></description>
-					<unique_key_name></unique_key_name>
-					<logical_name></logical_name>
-					<physical_name></physical_name>
-					<type>nvarchar(n)</type>
-					<constraint></constraint>
-					<default_value></default_value>
-					<auto_increment>false</auto_increment>
-					<foreign_key>false</foreign_key>
-					<not_null>true</not_null>
-					<primary_key>false</primary_key>
-					<unique_key>false</unique_key>
-					<character_set></character_set>
-					<collation></collation>
-					<sequence>
-						<name></name>
-						<schema></schema>
-						<increment></increment>
-						<min_value></min_value>
-						<max_value></max_value>
-						<start></start>
-						<cache></cache>
-						<cycle>false</cycle>
-						<order>false</order>
-						<description></description>
-						<data_type></data_type>
-						<decimal_size>0</decimal_size>
-					</sequence>
-				</normal_column>
-				<normal_column>
-					<id>4</id>
-					<referenced_column>6</referenced_column>
-					<relation>0</relation>
-					<description>用户所在组织机构的id，为空表示用户为顶级用户，不属于任何组织机构。</description>
-					<unique_key_name></unique_key_name>
-					<logical_name>所属组织机构id</logical_name>
-					<physical_name>organizationId</physical_name>
-					<type>integer</type>
-					<constraint></constraint>
-					<default_value></default_value>
-					<auto_increment>false</auto_increment>
-					<foreign_key>true</foreign_key>
-					<not_null>false</not_null>
-					<primary_key>false</primary_key>
-					<unique_key>false</unique_key>
-					<character_set></character_set>
-					<collation></collation>
-					<sequence>
-						<name></name>
-						<schema></schema>
-						<increment></increment>
-						<min_value></min_value>
-						<max_value></max_value>
-						<start></start>
-						<cache></cache>
-						<cycle>false</cycle>
-						<order>false</order>
-						<description></description>
-						<data_type></data_type>
-						<decimal_size>0</decimal_size>
-					</sequence>
-				</normal_column>
-				<normal_column>
-					<word_id>9</word_id>
-					<id>5</id>
-					<description></description>
-					<unique_key_name></unique_key_name>
-					<logical_name></logical_name>
-					<physical_name></physical_name>
-					<type>nchar</type>
-					<constraint></constraint>
-					<default_value>N</default_value>
-					<auto_increment>false</auto_increment>
-					<foreign_key>false</foreign_key>
-					<not_null>false</not_null>
-					<primary_key>false</primary_key>
-					<unique_key>false</unique_key>
-					<character_set></character_set>
-					<collation></collation>
-					<sequence>
-						<name></name>
-						<schema></schema>
-						<increment></increment>
-						<min_value></min_value>
-						<max_value></max_value>
-						<start></start>
-						<cache></cache>
-						<cycle>false</cycle>
-						<order>false</order>
-						<description></description>
-						<data_type></data_type>
-						<decimal_size>0</decimal_size>
-					</sequence>
-				</normal_column>
-			</columns>
-			<indexes>
-			</indexes>
-			<complex_unique_key_list>
-			</complex_unique_key_list>
-			<table_properties>
-				<schema></schema>
-			</table_properties>
-		</table>
-		<table>
-			<id>1</id>
-			<height>134</height>
-			<width>226</width>
-				<font_name>宋体</font_name>
-				<font_size>9</font_size>
-			<x>62</x>
-			<y>70</y>
-			<color>
-				<r>128</r>
-				<g>128</g>
-				<b>192</b>
-			</color>
-			<connections>
-			</connections>
-			<physical_name>org_organization</physical_name>
-			<logical_name>组织结构表</logical_name>
-			<description>系统组织机构表，记录系统中的所有机构名称。</description>
-			<constraint></constraint>
-			<primary_key_name></primary_key_name>
-			<option></option>
-			<columns>
-				<normal_column>
-					<word_id>5</word_id>
-					<id>6</id>
-					<description></description>
-					<unique_key_name></unique_key_name>
-					<logical_name></logical_name>
-					<physical_name></physical_name>
-					<type>integer</type>
-					<constraint></constraint>
-					<default_value></default_value>
-					<auto_increment>true</auto_increment>
-					<foreign_key>false</foreign_key>
-					<not_null>true</not_null>
-					<primary_key>true</primary_key>
-					<unique_key>false</unique_key>
-					<character_set></character_set>
-					<collation></collation>
-					<sequence>
-						<name></name>
-						<schema></schema>
-						<increment>1</increment>
-						<min_value></min_value>
-						<max_value></max_value>
-						<start>1</start>
-						<cache></cache>
-						<cycle>false</cycle>
-						<order>false</order>
-						<description></description>
-						<data_type></data_type>
-						<decimal_size>0</decimal_size>
-					</sequence>
-				</normal_column>
-				<normal_column>
-					<word_id>13</word_id>
-					<id>7</id>
-					<description></description>
-					<unique_key_name></unique_key_name>
-					<logical_name></logical_name>
-					<physical_name></physical_name>
-					<type>nvarchar(n)</type>
-					<constraint></constraint>
-					<default_value></default_value>
-					<auto_increment>false</auto_increment>
-					<foreign_key>false</foreign_key>
-					<not_null>true</not_null>
-					<primary_key>false</primary_key>
-					<unique_key>false</unique_key>
-					<character_set></character_set>
-					<collation></collation>
-					<sequence>
-						<name></name>
-						<schema></schema>
-						<increment></increment>
-						<min_value></min_value>
-						<max_value></max_value>
-						<start></start>
-						<cache></cache>
-						<cycle>false</cycle>
-						<order>false</order>
-						<description></description>
-						<data_type></data_type>
-						<decimal_size>0</decimal_size>
-					</sequence>
-				</normal_column>
-				<normal_column>
-					<word_id>17</word_id>
-					<id>8</id>
-					<description></description>
-					<unique_key_name></unique_key_name>
-					<logical_name></logical_name>
-					<physical_name></physical_name>
-					<type>integer</type>
-					<constraint></constraint>
-					<default_value>NULL</default_value>
-					<auto_increment>false</auto_increment>
-					<foreign_key>false</foreign_key>
-					<not_null>false</not_null>
-					<primary_key>false</primary_key>
-					<unique_key>false</unique_key>
-					<character_set></character_set>
-					<collation></collation>
-					<sequence>
-						<name></name>
-						<schema></schema>
-						<increment></increment>
-						<min_value></min_value>
-						<max_value></max_value>
-						<start></start>
-						<cache></cache>
-						<cycle>false</cycle>
-						<order>false</order>
-						<description></description>
-						<data_type></data_type>
-						<decimal_size>0</decimal_size>
-					</sequence>
-				</normal_column>
-				<normal_column>
-					<word_id>0</word_id>
-					<id>9</id>
-					<description></description>
-					<unique_key_name></unique_key_name>
-					<logical_name></logical_name>
-					<physical_name></physical_name>
-					<type>timestamp</type>
-					<constraint></constraint>
-					<default_value>&lt;CURRENT TIME&gt;</default_value>
-					<auto_increment>false</auto_increment>
-					<foreign_key>false</foreign_key>
-					<not_null>true</not_null>
-					<primary_key>false</primary_key>
-					<unique_key>false</unique_key>
-					<character_set></character_set>
-					<collation></collation>
-					<sequence>
-						<name></name>
-						<schema></schema>
-						<increment></increment>
-						<min_value></min_value>
-						<max_value></max_value>
-						<start></start>
-						<cache></cache>
-						<cycle>false</cycle>
-						<order>false</order>
-						<description></description>
-						<data_type></data_type>
-						<decimal_size>0</decimal_size>
-					</sequence>
-				</normal_column>
-				<normal_column>
-					<word_id>8</word_id>
-					<id>10</id>
-					<description></description>
-					<unique_key_name></unique_key_name>
-					<logical_name></logical_name>
-					<physical_name></physical_name>
-					<type>nchar</type>
-					<constraint></constraint>
-					<default_value>N</default_value>
-					<auto_increment>false</auto_increment>
-					<foreign_key>false</foreign_key>
-					<not_null>true</not_null>
-					<primary_key>false</primary_key>
-					<unique_key>false</unique_key>
-					<character_set></character_set>
-					<collation></collation>
-					<sequence>
-						<name></name>
-						<schema></schema>
-						<increment></increment>
-						<min_value></min_value>
-						<max_value></max_value>
-						<start></start>
-						<cache></cache>
-						<cycle>false</cycle>
-						<order>false</order>
-						<description></description>
-						<data_type></data_type>
-						<decimal_size>0</decimal_size>
-					</sequence>
-				</normal_column>
-			</columns>
-			<indexes>
-			</indexes>
-			<complex_unique_key_list>
-			</complex_unique_key_list>
-			<table_properties>
-				<schema></schema>
-			</table_properties>
-		</table>
-		<table>
-			<id>2</id>
 			<height>170</height>
 			<width>206</width>
 				<font_name>宋体</font_name>
@@ -863,7 +457,7 @@
 			<columns>
 				<normal_column>
 					<word_id>6</word_id>
-					<id>11</id>
+					<id>0</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -895,7 +489,7 @@
 				</normal_column>
 				<normal_column>
 					<word_id>14</word_id>
-					<id>12</id>
+					<id>1</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -926,8 +520,8 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<word_id>19</word_id>
-					<id>13</id>
+					<word_id>21</word_id>
+					<id>2</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -958,8 +552,8 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<word_id>18</word_id>
-					<id>14</id>
+					<word_id>20</word_id>
+					<id>3</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -991,7 +585,7 @@
 				</normal_column>
 				<normal_column>
 					<word_id>3</word_id>
-					<id>15</id>
+					<id>4</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -1023,7 +617,7 @@
 				</normal_column>
 				<normal_column>
 					<word_id>1</word_id>
-					<id>16</id>
+					<id>5</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -1054,8 +648,8 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<word_id>16</word_id>
-					<id>17</id>
+					<word_id>18</word_id>
+					<id>6</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -1095,7 +689,7 @@
 			</table_properties>
 		</table>
 		<table>
-			<id>3</id>
+			<id>1</id>
 			<height>114</height>
 			<width>218</width>
 				<font_name>微软雅黑</font_name>
@@ -1118,7 +712,7 @@
 			<columns>
 				<normal_column>
 					<word_id>7</word_id>
-					<id>18</id>
+					<id>7</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -1150,7 +744,7 @@
 				</normal_column>
 				<normal_column>
 					<word_id>15</word_id>
-					<id>19</id>
+					<id>8</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -1182,7 +776,7 @@
 				</normal_column>
 				<normal_column>
 					<word_id>2</word_id>
-					<id>20</id>
+					<id>9</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -1222,7 +816,7 @@
 			</table_properties>
 		</table>
 		<table>
-			<id>4</id>
+			<id>2</id>
 			<height>91</height>
 			<width>164</width>
 				<font_name>微软雅黑</font_name>
@@ -1236,9 +830,9 @@
 			</color>
 			<connections>
 				<relation>
-					<id>1</id>
-					<source>3</source>
-					<target>4</target>
+					<id>0</id>
+					<source>1</source>
+					<target>2</target>
 					<child_cardinality>1..n</child_cardinality>
 					<parent_cardinality>1</parent_cardinality>
 					<reference_for_pk>true</reference_for_pk>
@@ -1253,9 +847,9 @@
 					<referenced_complex_unique_key>null</referenced_complex_unique_key>
 				</relation>
 				<relation>
-					<id>2</id>
-					<source>2</source>
-					<target>4</target>
+					<id>1</id>
+					<source>0</source>
+					<target>2</target>
 					<child_cardinality>1..n</child_cardinality>
 					<parent_cardinality>1</parent_cardinality>
 					<reference_for_pk>true</reference_for_pk>
@@ -1278,9 +872,9 @@
 			<option></option>
 			<columns>
 				<normal_column>
-					<id>21</id>
-					<referenced_column>18</referenced_column>
-					<relation>1</relation>
+					<id>10</id>
+					<referenced_column>7</referenced_column>
+					<relation>0</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -1311,9 +905,9 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<id>22</id>
-					<referenced_column>11</referenced_column>
-					<relation>2</relation>
+					<id>11</id>
+					<referenced_column>0</referenced_column>
+					<relation>1</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -1352,6 +946,502 @@
 				<schema></schema>
 			</table_properties>
 		</table>
+		<table>
+			<id>3</id>
+			<height>134</height>
+			<width>226</width>
+				<font_name>宋体</font_name>
+				<font_size>9</font_size>
+			<x>62</x>
+			<y>70</y>
+			<color>
+				<r>128</r>
+				<g>128</g>
+				<b>192</b>
+			</color>
+			<connections>
+			</connections>
+			<physical_name>org_organization</physical_name>
+			<logical_name>组织结构表</logical_name>
+			<description>系统组织机构表，记录系统中的所有机构名称。</description>
+			<constraint></constraint>
+			<primary_key_name></primary_key_name>
+			<option></option>
+			<columns>
+				<normal_column>
+					<word_id>5</word_id>
+					<id>12</id>
+					<description></description>
+					<unique_key_name></unique_key_name>
+					<logical_name></logical_name>
+					<physical_name></physical_name>
+					<type>integer</type>
+					<constraint></constraint>
+					<default_value></default_value>
+					<auto_increment>true</auto_increment>
+					<foreign_key>false</foreign_key>
+					<not_null>true</not_null>
+					<primary_key>true</primary_key>
+					<unique_key>false</unique_key>
+					<character_set></character_set>
+					<collation></collation>
+					<sequence>
+						<name></name>
+						<schema></schema>
+						<increment>1</increment>
+						<min_value></min_value>
+						<max_value></max_value>
+						<start>1</start>
+						<cache></cache>
+						<cycle>false</cycle>
+						<order>false</order>
+						<description></description>
+						<data_type></data_type>
+						<decimal_size>0</decimal_size>
+					</sequence>
+				</normal_column>
+				<normal_column>
+					<word_id>13</word_id>
+					<id>13</id>
+					<description></description>
+					<unique_key_name></unique_key_name>
+					<logical_name></logical_name>
+					<physical_name></physical_name>
+					<type>nvarchar(n)</type>
+					<constraint></constraint>
+					<default_value></default_value>
+					<auto_increment>false</auto_increment>
+					<foreign_key>false</foreign_key>
+					<not_null>true</not_null>
+					<primary_key>false</primary_key>
+					<unique_key>false</unique_key>
+					<character_set></character_set>
+					<collation></collation>
+					<sequence>
+						<name></name>
+						<schema></schema>
+						<increment></increment>
+						<min_value></min_value>
+						<max_value></max_value>
+						<start></start>
+						<cache></cache>
+						<cycle>false</cycle>
+						<order>false</order>
+						<description></description>
+						<data_type></data_type>
+						<decimal_size>0</decimal_size>
+					</sequence>
+				</normal_column>
+				<normal_column>
+					<word_id>19</word_id>
+					<id>14</id>
+					<description></description>
+					<unique_key_name></unique_key_name>
+					<logical_name></logical_name>
+					<physical_name></physical_name>
+					<type>integer</type>
+					<constraint></constraint>
+					<default_value>NULL</default_value>
+					<auto_increment>false</auto_increment>
+					<foreign_key>false</foreign_key>
+					<not_null>false</not_null>
+					<primary_key>false</primary_key>
+					<unique_key>false</unique_key>
+					<character_set></character_set>
+					<collation></collation>
+					<sequence>
+						<name></name>
+						<schema></schema>
+						<increment></increment>
+						<min_value></min_value>
+						<max_value></max_value>
+						<start></start>
+						<cache></cache>
+						<cycle>false</cycle>
+						<order>false</order>
+						<description></description>
+						<data_type></data_type>
+						<decimal_size>0</decimal_size>
+					</sequence>
+				</normal_column>
+				<normal_column>
+					<word_id>0</word_id>
+					<id>15</id>
+					<description></description>
+					<unique_key_name></unique_key_name>
+					<logical_name></logical_name>
+					<physical_name></physical_name>
+					<type>timestamp</type>
+					<constraint></constraint>
+					<default_value>&lt;CURRENT TIME&gt;</default_value>
+					<auto_increment>false</auto_increment>
+					<foreign_key>false</foreign_key>
+					<not_null>true</not_null>
+					<primary_key>false</primary_key>
+					<unique_key>false</unique_key>
+					<character_set></character_set>
+					<collation></collation>
+					<sequence>
+						<name></name>
+						<schema></schema>
+						<increment></increment>
+						<min_value></min_value>
+						<max_value></max_value>
+						<start></start>
+						<cache></cache>
+						<cycle>false</cycle>
+						<order>false</order>
+						<description></description>
+						<data_type></data_type>
+						<decimal_size>0</decimal_size>
+					</sequence>
+				</normal_column>
+				<normal_column>
+					<word_id>8</word_id>
+					<id>16</id>
+					<description></description>
+					<unique_key_name></unique_key_name>
+					<logical_name></logical_name>
+					<physical_name></physical_name>
+					<type>nchar</type>
+					<constraint></constraint>
+					<default_value>N</default_value>
+					<auto_increment>false</auto_increment>
+					<foreign_key>false</foreign_key>
+					<not_null>true</not_null>
+					<primary_key>false</primary_key>
+					<unique_key>false</unique_key>
+					<character_set></character_set>
+					<collation></collation>
+					<sequence>
+						<name></name>
+						<schema></schema>
+						<increment></increment>
+						<min_value></min_value>
+						<max_value></max_value>
+						<start></start>
+						<cache></cache>
+						<cycle>false</cycle>
+						<order>false</order>
+						<description></description>
+						<data_type></data_type>
+						<decimal_size>0</decimal_size>
+					</sequence>
+				</normal_column>
+				<normal_column>
+					<word_id>16</word_id>
+					<id>17</id>
+					<description></description>
+					<unique_key_name></unique_key_name>
+					<logical_name></logical_name>
+					<physical_name></physical_name>
+					<type>integer</type>
+					<constraint></constraint>
+					<default_value></default_value>
+					<auto_increment>false</auto_increment>
+					<foreign_key>false</foreign_key>
+					<not_null>false</not_null>
+					<primary_key>false</primary_key>
+					<unique_key>false</unique_key>
+					<character_set></character_set>
+					<collation></collation>
+					<sequence>
+						<name></name>
+						<schema></schema>
+						<increment></increment>
+						<min_value></min_value>
+						<max_value></max_value>
+						<start></start>
+						<cache></cache>
+						<cycle>false</cycle>
+						<order>false</order>
+						<description></description>
+						<data_type></data_type>
+						<decimal_size>0</decimal_size>
+					</sequence>
+				</normal_column>
+			</columns>
+			<indexes>
+			</indexes>
+			<complex_unique_key_list>
+			</complex_unique_key_list>
+			<table_properties>
+				<schema></schema>
+			</table_properties>
+		</table>
+		<table>
+			<id>4</id>
+			<height>170</height>
+			<width>230</width>
+				<font_name>宋体</font_name>
+				<font_size>9</font_size>
+			<x>388</x>
+			<y>66</y>
+			<color>
+				<r>128</r>
+				<g>128</g>
+				<b>192</b>
+			</color>
+			<connections>
+				<relation>
+					<id>2</id>
+					<source>3</source>
+					<target>4</target>
+					<child_cardinality>1..n</child_cardinality>
+					<parent_cardinality>1</parent_cardinality>
+					<reference_for_pk>true</reference_for_pk>
+					<name></name>
+					<on_delete_action>RESTRICT</on_delete_action>
+					<on_update_action>RESTRICT</on_update_action>
+					<source_xp>-1</source_xp>
+					<source_yp>-1</source_yp>
+					<target_xp>-1</target_xp>
+					<target_yp>-1</target_yp>
+					<referenced_column>null</referenced_column>
+					<referenced_complex_unique_key>null</referenced_complex_unique_key>
+				</relation>
+			</connections>
+			<physical_name>org_user</physical_name>
+			<logical_name>用户表</logical_name>
+			<description></description>
+			<constraint></constraint>
+			<primary_key_name></primary_key_name>
+			<option></option>
+			<columns>
+				<normal_column>
+					<word_id>4</word_id>
+					<id>18</id>
+					<description></description>
+					<unique_key_name></unique_key_name>
+					<logical_name></logical_name>
+					<physical_name></physical_name>
+					<type>integer</type>
+					<constraint></constraint>
+					<default_value></default_value>
+					<auto_increment>true</auto_increment>
+					<foreign_key>false</foreign_key>
+					<not_null>true</not_null>
+					<primary_key>true</primary_key>
+					<unique_key>false</unique_key>
+					<character_set></character_set>
+					<collation></collation>
+					<sequence>
+						<name></name>
+						<schema></schema>
+						<increment></increment>
+						<min_value></min_value>
+						<max_value></max_value>
+						<start></start>
+						<cache></cache>
+						<cycle>false</cycle>
+						<order>false</order>
+						<description></description>
+						<data_type></data_type>
+						<decimal_size>0</decimal_size>
+					</sequence>
+				</normal_column>
+				<normal_column>
+					<word_id>10</word_id>
+					<id>19</id>
+					<description></description>
+					<unique_key_name></unique_key_name>
+					<logical_name></logical_name>
+					<physical_name></physical_name>
+					<type>nvarchar(n)</type>
+					<constraint></constraint>
+					<default_value></default_value>
+					<auto_increment>false</auto_increment>
+					<foreign_key>false</foreign_key>
+					<not_null>true</not_null>
+					<primary_key>false</primary_key>
+					<unique_key>true</unique_key>
+					<character_set></character_set>
+					<collation></collation>
+					<sequence>
+						<name></name>
+						<schema></schema>
+						<increment></increment>
+						<min_value></min_value>
+						<max_value></max_value>
+						<start></start>
+						<cache></cache>
+						<cycle>false</cycle>
+						<order>false</order>
+						<description></description>
+						<data_type></data_type>
+						<decimal_size>0</decimal_size>
+					</sequence>
+				</normal_column>
+				<normal_column>
+					<word_id>11</word_id>
+					<id>20</id>
+					<description></description>
+					<unique_key_name></unique_key_name>
+					<logical_name></logical_name>
+					<physical_name></physical_name>
+					<type>nvarchar(n)</type>
+					<constraint></constraint>
+					<default_value></default_value>
+					<auto_increment>false</auto_increment>
+					<foreign_key>false</foreign_key>
+					<not_null>true</not_null>
+					<primary_key>false</primary_key>
+					<unique_key>false</unique_key>
+					<character_set></character_set>
+					<collation></collation>
+					<sequence>
+						<name></name>
+						<schema></schema>
+						<increment></increment>
+						<min_value></min_value>
+						<max_value></max_value>
+						<start></start>
+						<cache></cache>
+						<cycle>false</cycle>
+						<order>false</order>
+						<description></description>
+						<data_type></data_type>
+						<decimal_size>0</decimal_size>
+					</sequence>
+				</normal_column>
+				<normal_column>
+					<word_id>12</word_id>
+					<id>21</id>
+					<description></description>
+					<unique_key_name></unique_key_name>
+					<logical_name></logical_name>
+					<physical_name></physical_name>
+					<type>nvarchar(n)</type>
+					<constraint></constraint>
+					<default_value></default_value>
+					<auto_increment>false</auto_increment>
+					<foreign_key>false</foreign_key>
+					<not_null>true</not_null>
+					<primary_key>false</primary_key>
+					<unique_key>false</unique_key>
+					<character_set></character_set>
+					<collation></collation>
+					<sequence>
+						<name></name>
+						<schema></schema>
+						<increment></increment>
+						<min_value></min_value>
+						<max_value></max_value>
+						<start></start>
+						<cache></cache>
+						<cycle>false</cycle>
+						<order>false</order>
+						<description></description>
+						<data_type></data_type>
+						<decimal_size>0</decimal_size>
+					</sequence>
+				</normal_column>
+				<normal_column>
+					<id>22</id>
+					<referenced_column>12</referenced_column>
+					<relation>2</relation>
+					<description>用户所在组织机构的id，为空表示用户为顶级用户，不属于任何组织机构。</description>
+					<unique_key_name></unique_key_name>
+					<logical_name>所属组织机构id</logical_name>
+					<physical_name>organizationId</physical_name>
+					<type>integer</type>
+					<constraint></constraint>
+					<default_value></default_value>
+					<auto_increment>false</auto_increment>
+					<foreign_key>true</foreign_key>
+					<not_null>false</not_null>
+					<primary_key>false</primary_key>
+					<unique_key>false</unique_key>
+					<character_set></character_set>
+					<collation></collation>
+					<sequence>
+						<name></name>
+						<schema></schema>
+						<increment></increment>
+						<min_value></min_value>
+						<max_value></max_value>
+						<start></start>
+						<cache></cache>
+						<cycle>false</cycle>
+						<order>false</order>
+						<description></description>
+						<data_type></data_type>
+						<decimal_size>0</decimal_size>
+					</sequence>
+				</normal_column>
+				<normal_column>
+					<word_id>9</word_id>
+					<id>23</id>
+					<description></description>
+					<unique_key_name></unique_key_name>
+					<logical_name></logical_name>
+					<physical_name></physical_name>
+					<type>nchar</type>
+					<constraint></constraint>
+					<default_value>N</default_value>
+					<auto_increment>false</auto_increment>
+					<foreign_key>false</foreign_key>
+					<not_null>false</not_null>
+					<primary_key>false</primary_key>
+					<unique_key>false</unique_key>
+					<character_set></character_set>
+					<collation></collation>
+					<sequence>
+						<name></name>
+						<schema></schema>
+						<increment></increment>
+						<min_value></min_value>
+						<max_value></max_value>
+						<start></start>
+						<cache></cache>
+						<cycle>false</cycle>
+						<order>false</order>
+						<description></description>
+						<data_type></data_type>
+						<decimal_size>0</decimal_size>
+					</sequence>
+				</normal_column>
+				<normal_column>
+					<word_id>17</word_id>
+					<id>24</id>
+					<description></description>
+					<unique_key_name></unique_key_name>
+					<logical_name></logical_name>
+					<physical_name></physical_name>
+					<type>integer</type>
+					<constraint></constraint>
+					<default_value></default_value>
+					<auto_increment>false</auto_increment>
+					<foreign_key>false</foreign_key>
+					<not_null>false</not_null>
+					<primary_key>false</primary_key>
+					<unique_key>false</unique_key>
+					<character_set></character_set>
+					<collation></collation>
+					<sequence>
+						<name></name>
+						<schema></schema>
+						<increment></increment>
+						<min_value></min_value>
+						<max_value></max_value>
+						<start></start>
+						<cache></cache>
+						<cycle>false</cycle>
+						<order>false</order>
+						<description></description>
+						<data_type></data_type>
+						<decimal_size>0</decimal_size>
+					</sequence>
+				</normal_column>
+			</columns>
+			<indexes>
+			</indexes>
+			<complex_unique_key_list>
+			</complex_unique_key_list>
+			<table_properties>
+				<schema></schema>
+			</table_properties>
+		</table>
 	</contents>
 	<column_groups>
 	</column_groups>
@@ -1360,57 +1450,65 @@
 				<name>用户表基础数据</name>
 				<export_order>0</export_order>
 				<table_test_data>
-					<table_id>0</table_id>
+					<table_id>4</table_id>
 					<direct_test_data>
 						<data>
 							<column_data>
-								<column_id>0</column_id>
+								<column_id>18</column_id>
 								<value></value>
 							</column_data>
 							<column_data>
-								<column_id>1</column_id>
+								<column_id>19</column_id>
 								<value>root</value>
 							</column_data>
 							<column_data>
-								<column_id>2</column_id>
+								<column_id>20</column_id>
 								<value>b9be11166d72e9e3ae7fd407165e4bd2</value>
 							</column_data>
 							<column_data>
-								<column_id>3</column_id>
+								<column_id>21</column_id>
 								<value>超级用户</value>
 							</column_data>
 							<column_data>
-								<column_id>4</column_id>
+								<column_id>22</column_id>
 								<value></value>
 							</column_data>
 							<column_data>
-								<column_id>5</column_id>
+								<column_id>23</column_id>
+								<value></value>
+							</column_data>
+							<column_data>
+								<column_id>24</column_id>
 								<value></value>
 							</column_data>
 						</data>
 						<data>
 							<column_data>
-								<column_id>0</column_id>
+								<column_id>18</column_id>
 								<value></value>
 							</column_data>
 							<column_data>
-								<column_id>1</column_id>
+								<column_id>19</column_id>
 								<value>admin</value>
 							</column_data>
 							<column_data>
-								<column_id>2</column_id>
+								<column_id>20</column_id>
 								<value>c3284d0f94606de1fd2af172aba15bf3</value>
 							</column_data>
 							<column_data>
-								<column_id>3</column_id>
+								<column_id>21</column_id>
 								<value>超级管理员</value>
 							</column_data>
 							<column_data>
-								<column_id>4</column_id>
+								<column_id>22</column_id>
 								<value></value>
 							</column_data>
 							<column_data>
-								<column_id>5</column_id>
+								<column_id>23</column_id>
+								<value></value>
+							</column_data>
+							<column_data>
+								<column_id>24</column_id>
 								<value></value>
 							</column_data>
 						</data>
@@ -1419,7 +1517,7 @@
 						<test_data_num>0</test_data_num>
 						<data_def_list>
 							<data_def>
-								<column_id>0</column_id>
+								<column_id>18</column_id>
 								<type>Format</type>
 								<repeat_num>1</repeat_num>
 								<template>%</template>
@@ -1434,7 +1532,7 @@
 								</modified_values>
 							</data_def>
 							<data_def>
-								<column_id>1</column_id>
+								<column_id>19</column_id>
 								<type>Format</type>
 								<repeat_num>1</repeat_num>
 								<template>登陆名_%</template>
@@ -1449,7 +1547,7 @@
 								</modified_values>
 							</data_def>
 							<data_def>
-								<column_id>2</column_id>
+								<column_id>20</column_id>
 								<type>Format</type>
 								<repeat_num>1</repeat_num>
 								<template>登陆密码_%</template>
@@ -1464,7 +1562,7 @@
 								</modified_values>
 							</data_def>
 							<data_def>
-								<column_id>3</column_id>
+								<column_id>21</column_id>
 								<type>Format</type>
 								<repeat_num>1</repeat_num>
 								<template>姓名_%</template>
@@ -1479,7 +1577,7 @@
 								</modified_values>
 							</data_def>
 							<data_def>
-								<column_id>4</column_id>
+								<column_id>22</column_id>
 								<type>Foreign Key</type>
 								<repeat_num>1</repeat_num>
 								<template>%</template>
@@ -1494,7 +1592,7 @@
 								</modified_values>
 							</data_def>
 							<data_def>
-								<column_id>5</column_id>
+								<column_id>23</column_id>
 								<type>Format</type>
 								<repeat_num>1</repeat_num>
 								<template>是否删除%</template>
@@ -1508,6 +1606,21 @@
 								<modified_values>
 								</modified_values>
 							</data_def>
+							<data_def>
+								<column_id>24</column_id>
+								<type>Format</type>
+								<repeat_num>1</repeat_num>
+								<template>%</template>
+								<from>1</from>
+								<to>100</to>
+								<increment>1</increment>
+								<select>1</select>
+								<select>2</select>
+								<select>3</select>
+								<select>4</select>
+								<modified_values>
+								</modified_values>
+							</data_def>
 						</data_def_list>
 					</repeat_test_data>
 				</table_test_data>
@@ -1516,155 +1629,155 @@
 				<name>系统初始菜单</name>
 				<export_order>0</export_order>
 				<table_test_data>
-					<table_id>2</table_id>
+					<table_id>0</table_id>
 					<direct_test_data>
 						<data>
 							<column_data>
-								<column_id>11</column_id>
+								<column_id>0</column_id>
 								<value>1</value>
 							</column_data>
 							<column_data>
-								<column_id>12</column_id>
+								<column_id>1</column_id>
 								<value>系统设置</value>
 							</column_data>
 							<column_data>
-								<column_id>13</column_id>
+								<column_id>2</column_id>
 								<value></value>
 							</column_data>
 							<column_data>
-								<column_id>14</column_id>
+								<column_id>3</column_id>
 								<value></value>
 							</column_data>
 							<column_data>
-								<column_id>15</column_id>
+								<column_id>4</column_id>
 								<value>icon-systemMenu</value>
 							</column_data>
 							<column_data>
-								<column_id>16</column_id>
+								<column_id>5</column_id>
 								<value></value>
 							</column_data>
 							<column_data>
-								<column_id>17</column_id>
+								<column_id>6</column_id>
 								<value></value>
 							</column_data>
 						</data>
 						<data>
 							<column_data>
-								<column_id>11</column_id>
+								<column_id>0</column_id>
 								<value>2</value>
 							</column_data>
 							<column_data>
-								<column_id>12</column_id>
+								<column_id>1</column_id>
 								<value>系统管理</value>
 							</column_data>
 							<column_data>
-								<column_id>13</column_id>
+								<column_id>2</column_id>
 								<value></value>
 							</column_data>
 							<column_data>
-								<column_id>14</column_id>
+								<column_id>3</column_id>
 								<value></value>
 							</column_data>
 							<column_data>
-								<column_id>15</column_id>
+								<column_id>4</column_id>
 								<value>icon-system</value>
 							</column_data>
 							<column_data>
-								<column_id>16</column_id>
+								<column_id>5</column_id>
 								<value></value>
 							</column_data>
 							<column_data>
-								<column_id>17</column_id>
+								<column_id>6</column_id>
 								<value></value>
 							</column_data>
 						</data>
 						<data>
 							<column_data>
-								<column_id>11</column_id>
+								<column_id>0</column_id>
 								<value>3</value>
 							</column_data>
 							<column_data>
-								<column_id>12</column_id>
+								<column_id>1</column_id>
 								<value>系统菜单</value>
 							</column_data>
 							<column_data>
-								<column_id>13</column_id>
+								<column_id>2</column_id>
 								<value>sys/menu/menu_list.aspx</value>
 							</column_data>
 							<column_data>
-								<column_id>14</column_id>
+								<column_id>3</column_id>
 								<value>1</value>
 							</column_data>
 							<column_data>
-								<column_id>15</column_id>
+								<column_id>4</column_id>
 								<value>icon-systemSetting</value>
 							</column_data>
 							<column_data>
-								<column_id>16</column_id>
+								<column_id>5</column_id>
 								<value></value>
 							</column_data>
 							<column_data>
-								<column_id>17</column_id>
+								<column_id>6</column_id>
 								<value></value>
 							</column_data>
 						</data>
 						<data>
 							<column_data>
-								<column_id>11</column_id>
+								<column_id>0</column_id>
 								<value>4</value>
 							</column_data>
 							<column_data>
-								<column_id>12</column_id>
+								<column_id>1</column_id>
 								<value>角色管理</value>
 							</column_data>
 							<column_data>
-								<column_id>13</column_id>
+								<column_id>2</column_id>
 								<value>sys/role/role_list.aspx</value>
 							</column_data>
 							<column_data>
-								<column_id>14</column_id>
+								<column_id>3</column_id>
 								<value>2</value>
 							</column_data>
 							<column_data>
-								<column_id>15</column_id>
+								<column_id>4</column_id>
 								<value>icon-role</value>
 							</column_data>
 							<column_data>
-								<column_id>16</column_id>
+								<column_id>5</column_id>
 								<value></value>
 							</column_data>
 							<column_data>
-								<column_id>17</column_id>
+								<column_id>6</column_id>
 								<value></value>
 							</column_data>
 						</data>
 						<data>
 							<column_data>
-								<column_id>11</column_id>
+								<column_id>0</column_id>
 								<value>5</value>
 							</column_data>
 							<column_data>
-								<column_id>12</column_id>
+								<column_id>1</column_id>
 								<value>组织机构管理</value>
 							</column_data>
 							<column_data>
-								<column_id>13</column_id>
+								<column_id>2</column_id>
 								<value>sys/organization/organization_list.aspx</value>
 							</column_data>
 							<column_data>
-								<column_id>14</column_id>
+								<column_id>3</column_id>
 								<value>2</value>
 							</column_data>
 							<column_data>
-								<column_id>15</column_id>
+								<column_id>4</column_id>
 								<value>icon-organization</value>
 							</column_data>
 							<column_data>
-								<column_id>16</column_id>
+								<column_id>5</column_id>
 								<value></value>
 							</column_data>
 							<column_data>
-								<column_id>17</column_id>
+								<column_id>6</column_id>
 								<value></value>
 							</column_data>
 						</data>
@@ -1673,7 +1786,7 @@
 						<test_data_num>0</test_data_num>
 						<data_def_list>
 							<data_def>
-								<column_id>11</column_id>
+								<column_id>0</column_id>
 								<type>Format</type>
 								<repeat_num>1</repeat_num>
 								<template>%</template>
@@ -1688,7 +1801,7 @@
 								</modified_values>
 							</data_def>
 							<data_def>
-								<column_id>12</column_id>
+								<column_id>1</column_id>
 								<type>Format</type>
 								<repeat_num>1</repeat_num>
 								<template>菜单名称。_%</template>
@@ -1703,7 +1816,7 @@
 								</modified_values>
 							</data_def>
 							<data_def>
-								<column_id>13</column_id>
+								<column_id>2</column_id>
 								<type>Format</type>
 								<repeat_num>1</repeat_num>
 								<template>菜单网址_%</template>
@@ -1718,7 +1831,7 @@
 								</modified_values>
 							</data_def>
 							<data_def>
-								<column_id>14</column_id>
+								<column_id>3</column_id>
 								<type>Format</type>
 								<repeat_num>1</repeat_num>
 								<template>%</template>
@@ -1733,7 +1846,7 @@
 								</modified_values>
 							</data_def>
 							<data_def>
-								<column_id>15</column_id>
+								<column_id>4</column_id>
 								<type>Format</type>
 								<repeat_num>1</repeat_num>
 								<template>菜单图标_%</template>
@@ -1748,7 +1861,7 @@
 								</modified_values>
 							</data_def>
 							<data_def>
-								<column_id>16</column_id>
+								<column_id>5</column_id>
 								<type>Format</type>
 								<repeat_num>1</repeat_num>
 								<template>桌面图标_%</template>
@@ -1763,7 +1876,7 @@
 								</modified_values>
 							</data_def>
 							<data_def>
-								<column_id>17</column_id>
+								<column_id>6</column_id>
 								<type>Format</type>
 								<repeat_num>1</repeat_num>
 								<template>%</template>
