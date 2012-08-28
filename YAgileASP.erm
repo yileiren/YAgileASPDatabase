@@ -110,7 +110,7 @@
 			</connections>
 			<display>false</display>
 			<creation_date>2012-07-10 21:48:44</creation_date>
-			<updated_date>2012-08-28 16:52:21</updated_date>
+			<updated_date>2012-08-28 17:17:50</updated_date>
 			<model_property>
 				<name>Project Name</name>
 				<value></value>
@@ -463,7 +463,7 @@
 			<array_dimension>null</array_dimension>
 			<unsigned>false</unsigned>
 			<args></args>
-			<description></description>
+			<description>为NULL表示顶级字典。</description>
 			<logical_name>父id。</logical_name>
 			<physical_name>parentId</physical_name>
 			<type>integer</type>
@@ -782,7 +782,7 @@
 			<connections>
 				<relation>
 					<id>0</id>
-					<source>5</source>
+					<source>0</source>
 					<target>1</target>
 					<child_cardinality>1..n</child_cardinality>
 					<parent_cardinality>1</parent_cardinality>
@@ -799,7 +799,7 @@
 				</relation>
 				<relation>
 					<id>1</id>
-					<source>0</source>
+					<source>5</source>
 					<target>1</target>
 					<child_cardinality>1..n</child_cardinality>
 					<parent_cardinality>1</parent_cardinality>
@@ -825,7 +825,7 @@
 				<normal_column>
 					<id>7</id>
 					<referenced_column>24</referenced_column>
-					<relation>0</relation>
+					<relation>1</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -858,7 +858,7 @@
 				<normal_column>
 					<id>8</id>
 					<referenced_column>0</referenced_column>
-					<relation>1</relation>
+					<relation>0</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -2203,6 +2203,36 @@
 							<column_data>
 								<column_id>4</column_id>
 								<value>icon-organization</value>
+							</column_data>
+							<column_data>
+								<column_id>5</column_id>
+								<value></value>
+							</column_data>
+							<column_data>
+								<column_id>6</column_id>
+								<value></value>
+							</column_data>
+						</data>
+						<data>
+							<column_data>
+								<column_id>0</column_id>
+								<value>6</value>
+							</column_data>
+							<column_data>
+								<column_id>1</column_id>
+								<value>数据字典</value>
+							</column_data>
+							<column_data>
+								<column_id>2</column_id>
+								<value>sys/dataDictionary/dataDictionary_list.aspx</value>
+							</column_data>
+							<column_data>
+								<column_id>3</column_id>
+								<value>2</value>
+							</column_data>
+							<column_data>
+								<column_id>4</column_id>
+								<value>icon-dictionary</value>
 							</column_data>
 							<column_data>
 								<column_id>5</column_id>
