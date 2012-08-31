@@ -97,7 +97,7 @@
 			<id></id>
 			<height>-1</height>
 			<width>-1</width>
-				<font_name>宋体</font_name>
+				<font_name>微软雅黑</font_name>
 				<font_size>9</font_size>
 			<x>50</x>
 			<y>50</y>
@@ -110,7 +110,7 @@
 			</connections>
 			<display>false</display>
 			<creation_date>2012-07-10 21:48:44</creation_date>
-			<updated_date>2012-08-28 17:17:50</updated_date>
+			<updated_date>2012-08-31 21:53:12</updated_date>
 			<model_property>
 				<name>Project Name</name>
 				<value></value>
@@ -2228,7 +2228,7 @@
 							</column_data>
 							<column_data>
 								<column_id>3</column_id>
-								<value>2</value>
+								<value>1</value>
 							</column_data>
 							<column_data>
 								<column_id>4</column_id>
