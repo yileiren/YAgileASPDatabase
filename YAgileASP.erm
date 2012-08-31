@@ -110,7 +110,7 @@
 			</connections>
 			<display>false</display>
 			<creation_date>2012-07-10 21:48:44</creation_date>
-			<updated_date>2012-08-31 22:15:01</updated_date>
+			<updated_date>2012-08-31 22:59:58</updated_date>
 			<model_property>
 				<name>Project Name</name>
 				<value></value>
@@ -488,7 +488,7 @@
 			<connections>
 				<relation>
 					<id>0</id>
-					<source>4</source>
+					<source>2</source>
 					<target>0</target>
 					<child_cardinality>1..n</child_cardinality>
 					<parent_cardinality>1</parent_cardinality>
@@ -505,7 +505,7 @@
 				</relation>
 				<relation>
 					<id>1</id>
-					<source>2</source>
+					<source>4</source>
 					<target>0</target>
 					<child_cardinality>1..n</child_cardinality>
 					<parent_cardinality>1</parent_cardinality>
@@ -531,7 +531,7 @@
 				<normal_column>
 					<id>0</id>
 					<referenced_column>4</referenced_column>
-					<relation>1</relation>
+					<relation>0</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -564,7 +564,7 @@
 				<normal_column>
 					<id>1</id>
 					<referenced_column>13</referenced_column>
-					<relation>0</relation>
+					<relation>1</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -2168,7 +2168,7 @@
 							</column_data>
 							<column_data>
 								<column_id>16</column_id>
-								<value></value>
+								<value>1</value>
 							</column_data>
 							<column_data>
 								<column_id>17</column_id>
@@ -2198,7 +2198,7 @@
 							</column_data>
 							<column_data>
 								<column_id>16</column_id>
-								<value></value>
+								<value>2</value>
 							</column_data>
 							<column_data>
 								<column_id>17</column_id>
@@ -2228,7 +2228,7 @@
 							</column_data>
 							<column_data>
 								<column_id>16</column_id>
-								<value></value>
+								<value>2</value>
 							</column_data>
 							<column_data>
 								<column_id>17</column_id>
@@ -2258,7 +2258,7 @@
 							</column_data>
 							<column_data>
 								<column_id>16</column_id>
-								<value></value>
+								<value>1</value>
 							</column_data>
 							<column_data>
 								<column_id>17</column_id>
