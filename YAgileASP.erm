@@ -11,8 +11,8 @@
 	</page_setting>
 	<category_index>0</category_index>
 	<zoom>1.0</zoom>
-	<x>37</x>
-	<y>364</y>
+	<x>0</x>
+	<y>448</y>
 	<default_color>
 		<r>128</r>
 		<g>128</g>
@@ -110,7 +110,7 @@
 			</connections>
 			<display>false</display>
 			<creation_date>2012-07-10 21:48:44</creation_date>
-			<updated_date>2012-08-31 22:54:25</updated_date>
+			<updated_date>2012-08-31 23:22:52</updated_date>
 			<model_property>
 				<name>Project Name</name>
 				<value></value>
@@ -1109,7 +1109,7 @@
 			<connections>
 				<relation>
 					<id>1</id>
-					<source>0</source>
+					<source>7</source>
 					<target>2</target>
 					<child_cardinality>1..n</child_cardinality>
 					<parent_cardinality>1</parent_cardinality>
@@ -1126,7 +1126,7 @@
 				</relation>
 				<relation>
 					<id>2</id>
-					<source>7</source>
+					<source>0</source>
 					<target>2</target>
 					<child_cardinality>1..n</child_cardinality>
 					<parent_cardinality>1</parent_cardinality>
@@ -1152,7 +1152,7 @@
 				<normal_column>
 					<id>10</id>
 					<referenced_column>0</referenced_column>
-					<relation>1</relation>
+					<relation>2</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -1185,7 +1185,7 @@
 				<normal_column>
 					<id>11</id>
 					<referenced_column>26</referenced_column>
-					<relation>2</relation>
+					<relation>1</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -1240,7 +1240,7 @@
 			<connections>
 				<relation>
 					<id>3</id>
-					<source>1</source>
+					<source>0</source>
 					<target>3</target>
 					<child_cardinality>1..n</child_cardinality>
 					<parent_cardinality>1</parent_cardinality>
@@ -1257,7 +1257,7 @@
 				</relation>
 				<relation>
 					<id>4</id>
-					<source>0</source>
+					<source>1</source>
 					<target>3</target>
 					<child_cardinality>1..n</child_cardinality>
 					<parent_cardinality>1</parent_cardinality>
@@ -1283,7 +1283,7 @@
 				<normal_column>
 					<id>12</id>
 					<referenced_column>3</referenced_column>
-					<relation>3</relation>
+					<relation>4</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -1316,7 +1316,7 @@
 				<normal_column>
 					<id>13</id>
 					<referenced_column>0</referenced_column>
-					<relation>4</relation>
+					<relation>3</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -2740,23 +2740,6 @@
 			<connections>
 				<relation>
 					<id>11</id>
-					<source>8</source>
-					<target>11</target>
-					<child_cardinality>1..n</child_cardinality>
-					<parent_cardinality>1</parent_cardinality>
-					<reference_for_pk>true</reference_for_pk>
-					<name></name>
-					<on_delete_action>RESTRICT</on_delete_action>
-					<on_update_action>RESTRICT</on_update_action>
-					<source_xp>38</source_xp>
-					<source_yp>100</source_yp>
-					<target_xp>100</target_xp>
-					<target_yp>51</target_yp>
-					<referenced_column>null</referenced_column>
-					<referenced_complex_unique_key>null</referenced_complex_unique_key>
-				</relation>
-				<relation>
-					<id>12</id>
 					<source>12</source>
 					<target>11</target>
 					<child_cardinality>1..n</child_cardinality>
@@ -2773,7 +2756,7 @@
 					<referenced_complex_unique_key>null</referenced_complex_unique_key>
 				</relation>
 				<relation>
-					<id>13</id>
+					<id>12</id>
 					<source>4</source>
 					<target>11</target>
 					<child_cardinality>1..n</child_cardinality>
@@ -2790,7 +2773,7 @@
 					<referenced_complex_unique_key>null</referenced_complex_unique_key>
 				</relation>
 				<relation>
-					<id>14</id>
+					<id>13</id>
 					<source>8</source>
 					<target>11</target>
 					<child_cardinality>1..n</child_cardinality>
@@ -2803,6 +2786,23 @@
 					<source_yp>100</source_yp>
 					<target_xp>100</target_xp>
 					<target_yp>64</target_yp>
+					<referenced_column>null</referenced_column>
+					<referenced_complex_unique_key>null</referenced_complex_unique_key>
+				</relation>
+				<relation>
+					<id>14</id>
+					<source>8</source>
+					<target>11</target>
+					<child_cardinality>1..n</child_cardinality>
+					<parent_cardinality>1</parent_cardinality>
+					<reference_for_pk>true</reference_for_pk>
+					<name></name>
+					<on_delete_action>RESTRICT</on_delete_action>
+					<on_update_action>RESTRICT</on_update_action>
+					<source_xp>38</source_xp>
+					<source_yp>100</source_yp>
+					<target_xp>100</target_xp>
+					<target_yp>51</target_yp>
 					<referenced_column>null</referenced_column>
 					<referenced_complex_unique_key>null</referenced_complex_unique_key>
 				</relation>
@@ -2904,7 +2904,7 @@
 				<normal_column>
 					<id>48</id>
 					<referenced_column>54</referenced_column>
-					<relation>12</relation>
+					<relation>11</relation>
 					<description>单据主表id</description>
 					<unique_key_name></unique_key_name>
 					<logical_name>主表id</logical_name>
@@ -2937,7 +2937,7 @@
 				<normal_column>
 					<id>49</id>
 					<referenced_column>14</referenced_column>
-					<relation>13</relation>
+					<relation>12</relation>
 					<description>货物id</description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -2970,7 +2970,7 @@
 				<normal_column>
 					<id>50</id>
 					<referenced_column>33</referenced_column>
-					<relation>11</relation>
+					<relation>14</relation>
 					<description>颜色id。</description>
 					<unique_key_name></unique_key_name>
 					<logical_name>颜色id</logical_name>
@@ -3003,7 +3003,7 @@
 				<normal_column>
 					<id>51</id>
 					<referenced_column>33</referenced_column>
-					<relation>14</relation>
+					<relation>13</relation>
 					<description>尺码id</description>
 					<unique_key_name></unique_key_name>
 					<logical_name>尺码id</logical_name>
@@ -3139,40 +3139,6 @@
 				</relation>
 				<relation>
 					<id>17</id>
-					<source>10</source>
-					<target>12</target>
-					<child_cardinality>1..n</child_cardinality>
-					<parent_cardinality>1</parent_cardinality>
-					<reference_for_pk>true</reference_for_pk>
-					<name></name>
-					<on_delete_action>RESTRICT</on_delete_action>
-					<on_update_action>RESTRICT</on_update_action>
-					<source_xp>-1</source_xp>
-					<source_yp>-1</source_yp>
-					<target_xp>0</target_xp>
-					<target_yp>39</target_yp>
-					<referenced_column>null</referenced_column>
-					<referenced_complex_unique_key>null</referenced_complex_unique_key>
-				</relation>
-				<relation>
-					<id>18</id>
-					<source>1</source>
-					<target>12</target>
-					<child_cardinality>1..n</child_cardinality>
-					<parent_cardinality>1</parent_cardinality>
-					<reference_for_pk>true</reference_for_pk>
-					<name></name>
-					<on_delete_action>RESTRICT</on_delete_action>
-					<on_update_action>RESTRICT</on_update_action>
-					<source_xp>34</source_xp>
-					<source_yp>100</source_yp>
-					<target_xp>0</target_xp>
-					<target_yp>92</target_yp>
-					<referenced_column>null</referenced_column>
-					<referenced_complex_unique_key>null</referenced_complex_unique_key>
-				</relation>
-				<relation>
-					<id>19</id>
 					<source>8</source>
 					<target>12</target>
 					<child_cardinality>1..n</child_cardinality>
@@ -3189,7 +3155,7 @@
 					<referenced_complex_unique_key>null</referenced_complex_unique_key>
 				</relation>
 				<relation>
-					<id>20</id>
+					<id>18</id>
 					<source>5</source>
 					<target>12</target>
 					<child_cardinality>1..n</child_cardinality>
@@ -3206,7 +3172,24 @@
 					<referenced_complex_unique_key>null</referenced_complex_unique_key>
 				</relation>
 				<relation>
-					<id>21</id>
+					<id>19</id>
+					<source>10</source>
+					<target>12</target>
+					<child_cardinality>1..n</child_cardinality>
+					<parent_cardinality>1</parent_cardinality>
+					<reference_for_pk>true</reference_for_pk>
+					<name></name>
+					<on_delete_action>RESTRICT</on_delete_action>
+					<on_update_action>RESTRICT</on_update_action>
+					<source_xp>-1</source_xp>
+					<source_yp>-1</source_yp>
+					<target_xp>0</target_xp>
+					<target_yp>39</target_yp>
+					<referenced_column>null</referenced_column>
+					<referenced_complex_unique_key>null</referenced_complex_unique_key>
+				</relation>
+				<relation>
+					<id>20</id>
 					<source>8</source>
 					<target>12</target>
 					<child_cardinality>1..n</child_cardinality>
@@ -3219,6 +3202,23 @@
 					<source_yp>-1</source_yp>
 					<target_xp>100</target_xp>
 					<target_yp>55</target_yp>
+					<referenced_column>null</referenced_column>
+					<referenced_complex_unique_key>null</referenced_complex_unique_key>
+				</relation>
+				<relation>
+					<id>21</id>
+					<source>1</source>
+					<target>12</target>
+					<child_cardinality>1..n</child_cardinality>
+					<parent_cardinality>1</parent_cardinality>
+					<reference_for_pk>true</reference_for_pk>
+					<name></name>
+					<on_delete_action>RESTRICT</on_delete_action>
+					<on_update_action>RESTRICT</on_update_action>
+					<source_xp>34</source_xp>
+					<source_yp>100</source_yp>
+					<target_xp>0</target_xp>
+					<target_yp>92</target_yp>
 					<referenced_column>null</referenced_column>
 					<referenced_complex_unique_key>null</referenced_complex_unique_key>
 				</relation>
@@ -3297,7 +3297,7 @@
 				<normal_column>
 					<id>56</id>
 					<referenced_column>17</referenced_column>
-					<relation>20</relation>
+					<relation>18</relation>
 					<description>关联到供货商和客户表。</description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -3330,7 +3330,7 @@
 				<normal_column>
 					<id>57</id>
 					<referenced_column>41</referenced_column>
-					<relation>17</relation>
+					<relation>19</relation>
 					<description>记录单据所属仓库。</description>
 					<unique_key_name></unique_key_name>
 					<logical_name>仓库id</logical_name>
@@ -3363,7 +3363,7 @@
 				<normal_column>
 					<id>58</id>
 					<referenced_column>33</referenced_column>
-					<relation>19</relation>
+					<relation>17</relation>
 					<description>单据类型。&#x0D;&#x0A;1是入库单。&#x0D;&#x0A;2是出库单。&#x0D;&#x0A;3是退货单，把单子推给供货商。&#x0D;&#x0A;4是退库单，把客户的单子退到仓库。</description>
 					<unique_key_name></unique_key_name>
 					<logical_name>类型</logical_name>
@@ -3396,7 +3396,7 @@
 				<normal_column>
 					<id>59</id>
 					<referenced_column>33</referenced_column>
-					<relation>21</relation>
+					<relation>20</relation>
 					<description>单据状态。&#x0D;&#x0A;1是创建，创建的单据保存单不启用。&#x0D;&#x0A;2是执行，执行后开始改变库存。&#x0D;&#x0A;3是作废。</description>
 					<unique_key_name></unique_key_name>
 					<logical_name>状态</logical_name>
@@ -3526,7 +3526,7 @@
 				<normal_column>
 					<id>63</id>
 					<referenced_column>3</referenced_column>
-					<relation>18</relation>
+					<relation>21</relation>
 					<description>执行单据的用户，为null表示未执行。</description>
 					<unique_key_name></unique_key_name>
 					<logical_name>执行人</logical_name>
@@ -3829,7 +3829,7 @@
 							</column_data>
 							<column_data>
 								<column_id>29</column_id>
-								<value></value>
+								<value>1</value>
 							</column_data>
 							<column_data>
 								<column_id>30</column_id>
@@ -3859,7 +3859,7 @@
 							</column_data>
 							<column_data>
 								<column_id>29</column_id>
-								<value></value>
+								<value>2</value>
 							</column_data>
 							<column_data>
 								<column_id>30</column_id>
@@ -3889,7 +3889,7 @@
 							</column_data>
 							<column_data>
 								<column_id>29</column_id>
-								<value></value>
+								<value>2</value>
 							</column_data>
 							<column_data>
 								<column_id>30</column_id>
@@ -3919,7 +3919,7 @@
 							</column_data>
 							<column_data>
 								<column_id>29</column_id>
-								<value></value>
+								<value>1</value>
 							</column_data>
 							<column_data>
 								<column_id>30</column_id>
