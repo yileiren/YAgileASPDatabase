@@ -11,8 +11,8 @@
 	</page_setting>
 	<category_index>0</category_index>
 	<zoom>1.0</zoom>
-	<x>56</x>
-	<y>0</y>
+	<x>0</x>
+	<y>-239</y>
 	<default_color>
 		<r>128</r>
 		<g>128</g>
@@ -110,7 +110,7 @@
 			</connections>
 			<display>false</display>
 			<creation_date>2012-07-10 21:48:44</creation_date>
-			<updated_date>2012-08-31 23:47:04</updated_date>
+			<updated_date>2012-08-31 23:48:53</updated_date>
 			<model_property>
 				<name>Project Name</name>
 				<value></value>
@@ -478,8 +478,8 @@
 			<width>164</width>
 				<font_name>微软雅黑</font_name>
 				<font_size>9</font_size>
-			<x>343</x>
-			<y>336</y>
+			<x>345</x>
+			<y>-200</y>
 			<color>
 				<r>128</r>
 				<g>128</g>
@@ -488,7 +488,7 @@
 			<connections>
 				<relation>
 					<id>0</id>
-					<source>6</source>
+					<source>2</source>
 					<target>0</target>
 					<child_cardinality>1..n</child_cardinality>
 					<parent_cardinality>1</parent_cardinality>
@@ -505,7 +505,7 @@
 				</relation>
 				<relation>
 					<id>1</id>
-					<source>2</source>
+					<source>6</source>
 					<target>0</target>
 					<child_cardinality>1..n</child_cardinality>
 					<parent_cardinality>1</parent_cardinality>
@@ -531,7 +531,7 @@
 				<normal_column>
 					<id>0</id>
 					<referenced_column>4</referenced_column>
-					<relation>1</relation>
+					<relation>0</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -564,7 +564,7 @@
 				<normal_column>
 					<id>1</id>
 					<referenced_column>26</referenced_column>
-					<relation>0</relation>
+					<relation>1</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -619,7 +619,7 @@
 			<connections>
 				<relation>
 					<id>2</id>
-					<source>2</source>
+					<source>4</source>
 					<target>1</target>
 					<child_cardinality>1..n</child_cardinality>
 					<parent_cardinality>1</parent_cardinality>
@@ -636,7 +636,7 @@
 				</relation>
 				<relation>
 					<id>3</id>
-					<source>4</source>
+					<source>2</source>
 					<target>1</target>
 					<child_cardinality>1..n</child_cardinality>
 					<parent_cardinality>1</parent_cardinality>
@@ -662,7 +662,7 @@
 				<normal_column>
 					<id>2</id>
 					<referenced_column>13</referenced_column>
-					<relation>3</relation>
+					<relation>2</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -695,7 +695,7 @@
 				<normal_column>
 					<id>3</id>
 					<referenced_column>4</referenced_column>
-					<relation>2</relation>
+					<relation>3</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -740,8 +740,8 @@
 			<width>218</width>
 				<font_name>微软雅黑</font_name>
 				<font_size>9</font_size>
-			<x>584</x>
-			<y>326</y>
+			<x>586</x>
+			<y>-210</y>
 			<color>
 				<r>128</r>
 				<g>128</g>
@@ -1632,8 +1632,8 @@
 			<width>206</width>
 				<font_name>宋体</font_name>
 				<font_size>9</font_size>
-			<x>65</x>
-			<y>301</y>
+			<x>67</x>
+			<y>-235</y>
 			<color>
 				<r>128</r>
 				<g>128</g>
