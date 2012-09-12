@@ -11,7 +11,7 @@
 	</page_setting>
 	<category_index>0</category_index>
 	<zoom>1.0</zoom>
-	<x>400</x>
+	<x>521</x>
 	<y>581</y>
 	<default_color>
 		<r>128</r>
@@ -110,7 +110,7 @@
 			</connections>
 			<display>false</display>
 			<creation_date>2012-07-10 21:48:44</creation_date>
-			<updated_date>2012-09-09 11:45:47</updated_date>
+			<updated_date>2012-09-12 23:29:37</updated_date>
 			<model_property>
 				<name>Project Name</name>
 				<value></value>
@@ -1297,7 +1297,7 @@
 			<connections>
 				<relation>
 					<id>3</id>
-					<source>4</source>
+					<source>2</source>
 					<target>3</target>
 					<child_cardinality>1..n</child_cardinality>
 					<parent_cardinality>1</parent_cardinality>
@@ -1314,7 +1314,7 @@
 				</relation>
 				<relation>
 					<id>4</id>
-					<source>2</source>
+					<source>4</source>
 					<target>3</target>
 					<child_cardinality>1..n</child_cardinality>
 					<parent_cardinality>1</parent_cardinality>
@@ -1340,7 +1340,7 @@
 				<normal_column>
 					<id>12</id>
 					<referenced_column>14</referenced_column>
-					<relation>3</relation>
+					<relation>4</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -1373,7 +1373,7 @@
 				<normal_column>
 					<id>13</id>
 					<referenced_column>9</referenced_column>
-					<relation>4</relation>
+					<relation>3</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -2794,7 +2794,7 @@
 					<id>11</id>
 					<source>13</source>
 					<target>11</target>
-					<child_cardinality>1..n</child_cardinality>
+					<child_cardinality>1</child_cardinality>
 					<parent_cardinality>1</parent_cardinality>
 					<reference_for_pk>true</reference_for_pk>
 					<name></name>
@@ -2954,7 +2954,7 @@
 				</relation>
 				<relation>
 					<id>13</id>
-					<source>4</source>
+					<source>7</source>
 					<target>12</target>
 					<child_cardinality>1..n</child_cardinality>
 					<parent_cardinality>1</parent_cardinality>
@@ -2962,10 +2962,10 @@
 					<name></name>
 					<on_delete_action>RESTRICT</on_delete_action>
 					<on_update_action>RESTRICT</on_update_action>
-					<source_xp>6</source_xp>
-					<source_yp>100</source_yp>
+					<source_xp>-1</source_xp>
+					<source_yp>-1</source_yp>
 					<target_xp>0</target_xp>
-					<target_yp>89</target_yp>
+					<target_yp>39</target_yp>
 					<referenced_column>null</referenced_column>
 					<referenced_complex_unique_key>null</referenced_complex_unique_key>
 				</relation>
@@ -2988,7 +2988,7 @@
 				</relation>
 				<relation>
 					<id>15</id>
-					<source>7</source>
+					<source>4</source>
 					<target>12</target>
 					<child_cardinality>1..n</child_cardinality>
 					<parent_cardinality>1</parent_cardinality>
@@ -2996,10 +2996,10 @@
 					<name></name>
 					<on_delete_action>RESTRICT</on_delete_action>
 					<on_update_action>RESTRICT</on_update_action>
-					<source_xp>-1</source_xp>
-					<source_yp>-1</source_yp>
+					<source_xp>6</source_xp>
+					<source_yp>100</source_yp>
 					<target_xp>0</target_xp>
-					<target_yp>39</target_yp>
+					<target_yp>89</target_yp>
 					<referenced_column>null</referenced_column>
 					<referenced_complex_unique_key>null</referenced_complex_unique_key>
 				</relation>
@@ -3111,7 +3111,7 @@
 				<normal_column>
 					<id>52</id>
 					<referenced_column>29</referenced_column>
-					<relation>15</relation>
+					<relation>13</relation>
 					<description>记录单据所属仓库。</description>
 					<unique_key_name></unique_key_name>
 					<logical_name>仓库id</logical_name>
@@ -3305,7 +3305,7 @@
 				<normal_column>
 					<id>58</id>
 					<referenced_column>14</referenced_column>
-					<relation>13</relation>
+					<relation>15</relation>
 					<description>执行单据的用户，为null表示未执行。</description>
 					<unique_key_name></unique_key_name>
 					<logical_name>执行人</logical_name>
@@ -3360,28 +3360,6 @@
 			<connections>
 				<relation>
 					<id>16</id>
-					<source>13</source>
-					<target>13</target>
-						<bendpoint>
-							<relative>true</relative>
-							<x>43</x>
-							<y>32</y>
-						</bendpoint>
-					<child_cardinality>1..n</child_cardinality>
-					<parent_cardinality>1</parent_cardinality>
-					<reference_for_pk>true</reference_for_pk>
-					<name></name>
-					<on_delete_action>RESTRICT</on_delete_action>
-					<on_update_action>RESTRICT</on_update_action>
-					<source_xp>100</source_xp>
-					<source_yp>84</source_yp>
-					<target_xp>79</target_xp>
-					<target_yp>100</target_yp>
-					<referenced_column>null</referenced_column>
-					<referenced_complex_unique_key>null</referenced_complex_unique_key>
-				</relation>
-				<relation>
-					<id>17</id>
 					<source>9</source>
 					<target>13</target>
 					<child_cardinality>1..n</child_cardinality>
@@ -3394,6 +3372,23 @@
 					<source_yp>-1</source_yp>
 					<target_xp>0</target_xp>
 					<target_yp>43</target_yp>
+					<referenced_column>null</referenced_column>
+					<referenced_complex_unique_key>null</referenced_complex_unique_key>
+				</relation>
+				<relation>
+					<id>17</id>
+					<source>10</source>
+					<target>13</target>
+					<child_cardinality>1..n</child_cardinality>
+					<parent_cardinality>1</parent_cardinality>
+					<reference_for_pk>true</reference_for_pk>
+					<name></name>
+					<on_delete_action>RESTRICT</on_delete_action>
+					<on_update_action>RESTRICT</on_update_action>
+					<source_xp>-1</source_xp>
+					<source_yp>-1</source_yp>
+					<target_xp>100</target_xp>
+					<target_yp>66</target_yp>
 					<referenced_column>null</referenced_column>
 					<referenced_complex_unique_key>null</referenced_complex_unique_key>
 				</relation>
@@ -3416,23 +3411,6 @@
 				</relation>
 				<relation>
 					<id>19</id>
-					<source>10</source>
-					<target>13</target>
-					<child_cardinality>1..n</child_cardinality>
-					<parent_cardinality>1</parent_cardinality>
-					<reference_for_pk>true</reference_for_pk>
-					<name></name>
-					<on_delete_action>RESTRICT</on_delete_action>
-					<on_update_action>RESTRICT</on_update_action>
-					<source_xp>-1</source_xp>
-					<source_yp>-1</source_yp>
-					<target_xp>100</target_xp>
-					<target_yp>66</target_yp>
-					<referenced_column>null</referenced_column>
-					<referenced_complex_unique_key>null</referenced_complex_unique_key>
-				</relation>
-				<relation>
-					<id>20</id>
 					<source>12</source>
 					<target>13</target>
 					<child_cardinality>1..n</child_cardinality>
@@ -3445,6 +3423,28 @@
 					<source_yp>-1</source_yp>
 					<target_xp>0</target_xp>
 					<target_yp>30</target_yp>
+					<referenced_column>null</referenced_column>
+					<referenced_complex_unique_key>null</referenced_complex_unique_key>
+				</relation>
+				<relation>
+					<id>20</id>
+					<source>13</source>
+					<target>13</target>
+						<bendpoint>
+							<relative>true</relative>
+							<x>43</x>
+							<y>32</y>
+						</bendpoint>
+					<child_cardinality>1..n</child_cardinality>
+					<parent_cardinality>1</parent_cardinality>
+					<reference_for_pk>true</reference_for_pk>
+					<name></name>
+					<on_delete_action>RESTRICT</on_delete_action>
+					<on_update_action>RESTRICT</on_update_action>
+					<source_xp>100</source_xp>
+					<source_yp>84</source_yp>
+					<target_xp>79</target_xp>
+					<target_yp>100</target_yp>
 					<referenced_column>null</referenced_column>
 					<referenced_complex_unique_key>null</referenced_complex_unique_key>
 				</relation>
@@ -3491,7 +3491,7 @@
 				<normal_column>
 					<id>60</id>
 					<referenced_column>59</referenced_column>
-					<relation>16</relation>
+					<relation>20</relation>
 					<description>记录与该明细关联的明细id。</description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -3524,7 +3524,7 @@
 				<normal_column>
 					<id>61</id>
 					<referenced_column>49</referenced_column>
-					<relation>20</relation>
+					<relation>19</relation>
 					<description>单据主表id</description>
 					<unique_key_name></unique_key_name>
 					<logical_name>主表id</logical_name>
@@ -3557,7 +3557,7 @@
 				<normal_column>
 					<id>62</id>
 					<referenced_column>37</referenced_column>
-					<relation>17</relation>
+					<relation>16</relation>
 					<description>货物id</description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -3623,7 +3623,7 @@
 				<normal_column>
 					<id>64</id>
 					<referenced_column>40</referenced_column>
-					<relation>19</relation>
+					<relation>17</relation>
 					<description>尺码id</description>
 					<unique_key_name></unique_key_name>
 					<logical_name>尺码id</logical_name>
