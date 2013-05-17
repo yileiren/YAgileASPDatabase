@@ -11,8 +11,8 @@
 	</page_setting>
 	<category_index>0</category_index>
 	<zoom>1.0</zoom>
-	<x>356</x>
-	<y>200</y>
+	<x>288</x>
+	<y>195</y>
 	<default_color>
 		<r>128</r>
 		<g>128</g>
@@ -40,8 +40,8 @@
 		<use_bezier_curve>false</use_bezier_curve>
 		<suspend_validator>false</suspend_validator>
 		<export_setting>
-			<category_name_to_export></category_name_to_export>
-			<ddl_output></ddl_output>
+			<category_name_to_export>All</category_name_to_export>
+			<ddl_output>C:\Users\Administrator\Desktop\SQLite.sql</ddl_output>
 			<excel_output></excel_output>
 			<excel_template></excel_template>
 			<image_output></image_output>
@@ -110,7 +110,7 @@
 			</connections>
 			<display>false</display>
 			<creation_date>2013-05-13 22:47:08</creation_date>
-			<updated_date>2013-05-13 22:49:33</updated_date>
+			<updated_date>2013-05-17 22:18:41</updated_date>
 			<model_property>
 				<name>Project Name</name>
 				<value></value>
@@ -145,7 +145,7 @@
 	<dictionary>
 		<word>
 			<id>0</id>
-			<length>50</length>
+			<length>null</length>
 			<decimal>null</decimal>
 			<array>false</array>
 			<array_dimension>null</array_dimension>
@@ -171,7 +171,7 @@
 		</word>
 		<word>
 			<id>2</id>
-			<length>100</length>
+			<length>null</length>
 			<decimal>null</decimal>
 			<array>false</array>
 			<array_dimension>null</array_dimension>
@@ -184,7 +184,7 @@
 		</word>
 		<word>
 			<id>3</id>
-			<length>200</length>
+			<length>null</length>
 			<decimal>null</decimal>
 			<array>false</array>
 			<array_dimension>null</array_dimension>
@@ -197,7 +197,7 @@
 		</word>
 		<word>
 			<id>4</id>
-			<length>50</length>
+			<length>null</length>
 			<decimal>null</decimal>
 			<array>false</array>
 			<array_dimension>null</array_dimension>
@@ -210,7 +210,7 @@
 		</word>
 		<word>
 			<id>5</id>
-			<length>20</length>
+			<length>null</length>
 			<decimal>null</decimal>
 			<array>false</array>
 			<array_dimension>null</array_dimension>
@@ -327,7 +327,7 @@
 		</word>
 		<word>
 			<id>14</id>
-			<length>20</length>
+			<length>null</length>
 			<decimal>null</decimal>
 			<array>false</array>
 			<array_dimension>null</array_dimension>
@@ -340,7 +340,7 @@
 		</word>
 		<word>
 			<id>15</id>
-			<length>40</length>
+			<length>null</length>
 			<decimal>null</decimal>
 			<array>false</array>
 			<array_dimension>null</array_dimension>
@@ -353,7 +353,7 @@
 		</word>
 		<word>
 			<id>16</id>
-			<length>50</length>
+			<length>null</length>
 			<decimal>null</decimal>
 			<array>false</array>
 			<array_dimension>null</array_dimension>
@@ -366,7 +366,7 @@
 		</word>
 		<word>
 			<id>17</id>
-			<length>20</length>
+			<length>null</length>
 			<decimal>null</decimal>
 			<array>false</array>
 			<array_dimension>null</array_dimension>
@@ -379,7 +379,7 @@
 		</word>
 		<word>
 			<id>18</id>
-			<length>50</length>
+			<length>null</length>
 			<decimal>null</decimal>
 			<array>false</array>
 			<array_dimension>null</array_dimension>
@@ -392,7 +392,7 @@
 		</word>
 		<word>
 			<id>19</id>
-			<length>20</length>
+			<length>null</length>
 			<decimal>null</decimal>
 			<array>false</array>
 			<array_dimension>null</array_dimension>
@@ -405,7 +405,7 @@
 		</word>
 		<word>
 			<id>20</id>
-			<length>20</length>
+			<length>null</length>
 			<decimal>null</decimal>
 			<array>false</array>
 			<array_dimension>null</array_dimension>
@@ -470,7 +470,7 @@
 		</word>
 		<word>
 			<id>25</id>
-			<length>500</length>
+			<length>null</length>
 			<decimal>null</decimal>
 			<array>false</array>
 			<array_dimension>null</array_dimension>
@@ -483,7 +483,7 @@
 		</word>
 		<word>
 			<id>26</id>
-			<length>200</length>
+			<length>null</length>
 			<decimal>null</decimal>
 			<array>false</array>
 			<array_dimension>null</array_dimension>
@@ -1240,7 +1240,7 @@
 			<connections>
 				<relation>
 					<id>4</id>
-					<source>1</source>
+					<source>3</source>
 					<target>4</target>
 					<child_cardinality>1..n</child_cardinality>
 					<parent_cardinality>1</parent_cardinality>
@@ -1257,7 +1257,7 @@
 				</relation>
 				<relation>
 					<id>5</id>
-					<source>3</source>
+					<source>1</source>
 					<target>4</target>
 					<child_cardinality>1..n</child_cardinality>
 					<parent_cardinality>1</parent_cardinality>
@@ -1283,7 +1283,7 @@
 				<normal_column>
 					<id>16</id>
 					<referenced_column>2</referenced_column>
-					<relation>4</relation>
+					<relation>5</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -1316,7 +1316,7 @@
 				<normal_column>
 					<id>17</id>
 					<referenced_column>9</referenced_column>
-					<relation>5</relation>
+					<relation>4</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -1357,12 +1357,12 @@
 		</table>
 		<table>
 			<id>5</id>
-			<height>152</height>
-			<width>226</width>
+			<height>170</height>
+			<width>188</width>
 				<font_name>宋体</font_name>
 				<font_size>9</font_size>
-			<x>747</x>
-			<y>775</y>
+			<x>1230</x>
+			<y>798</y>
 			<color>
 				<r>128</r>
 				<g>128</g>
@@ -1375,7 +1375,7 @@
 					<target>5</target>
 						<bendpoint>
 							<relative>true</relative>
-							<x>30</x>
+							<x>35</x>
 							<y>40</y>
 						</bendpoint>
 					<child_cardinality>1..n</child_cardinality>
@@ -1386,21 +1386,21 @@
 					<on_update_action>RESTRICT</on_update_action>
 					<source_xp>100</source_xp>
 					<source_yp>80</source_yp>
-					<target_xp>85</target_xp>
+					<target_xp>83</target_xp>
 					<target_yp>100</target_yp>
 					<referenced_column>null</referenced_column>
 					<referenced_complex_unique_key>null</referenced_complex_unique_key>
 				</relation>
 			</connections>
-			<physical_name>org_organization</physical_name>
-			<logical_name>组织结构表</logical_name>
-			<description>系统组织机构表，记录系统中的所有机构名称。</description>
+			<physical_name>sys_dataDictionary</physical_name>
+			<logical_name>数据字典表</logical_name>
+			<description></description>
 			<constraint></constraint>
 			<primary_key_name></primary_key_name>
 			<option></option>
 			<columns>
 				<normal_column>
-					<word_id>8</word_id>
+					<word_id>6</word_id>
 					<id>18</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
@@ -1419,10 +1419,10 @@
 					<sequence>
 						<name></name>
 						<schema></schema>
-						<increment>1</increment>
+						<increment></increment>
 						<min_value></min_value>
 						<max_value></max_value>
-						<start>1</start>
+						<start></start>
 						<cache></cache>
 						<cycle>false</cycle>
 						<order>false</order>
@@ -1432,8 +1432,41 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<word_id>18</word_id>
 					<id>19</id>
+					<referenced_column>18</referenced_column>
+					<relation>6</relation>
+					<description>为NULL表示顶级字典。</description>
+					<unique_key_name></unique_key_name>
+					<logical_name>父id。</logical_name>
+					<physical_name>parentId</physical_name>
+					<type>integer</type>
+					<constraint></constraint>
+					<default_value></default_value>
+					<auto_increment>false</auto_increment>
+					<foreign_key>true</foreign_key>
+					<not_null>false</not_null>
+					<primary_key>false</primary_key>
+					<unique_key>false</unique_key>
+					<character_set></character_set>
+					<collation></collation>
+					<sequence>
+						<name></name>
+						<schema></schema>
+						<increment></increment>
+						<min_value></min_value>
+						<max_value></max_value>
+						<start></start>
+						<cache></cache>
+						<cycle>false</cycle>
+						<order>false</order>
+						<description></description>
+						<data_type></data_type>
+						<decimal_size>0</decimal_size>
+					</sequence>
+				</normal_column>
+				<normal_column>
+					<word_id>16</word_id>
+					<id>20</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -1464,46 +1497,13 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<id>20</id>
-					<referenced_column>18</referenced_column>
-					<relation>6</relation>
-					<description>当前组织机构的父机构id，为NULL时标识该机构为顶级机构。</description>
-					<unique_key_name></unique_key_name>
-					<logical_name>父id。</logical_name>
-					<physical_name>parentId</physical_name>
-					<type>integer</type>
-					<constraint></constraint>
-					<default_value></default_value>
-					<auto_increment>false</auto_increment>
-					<foreign_key>true</foreign_key>
-					<not_null>false</not_null>
-					<primary_key>false</primary_key>
-					<unique_key>false</unique_key>
-					<character_set></character_set>
-					<collation></collation>
-					<sequence>
-						<name></name>
-						<schema></schema>
-						<increment></increment>
-						<min_value></min_value>
-						<max_value></max_value>
-						<start></start>
-						<cache></cache>
-						<cycle>false</cycle>
-						<order>false</order>
-						<description></description>
-						<data_type></data_type>
-						<decimal_size>0</decimal_size>
-					</sequence>
-				</normal_column>
-				<normal_column>
-					<word_id>1</word_id>
+					<word_id>27</word_id>
 					<id>21</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
 					<physical_name></physical_name>
-					<type>text</type>
+					<type>integer</type>
 					<constraint></constraint>
 					<default_value></default_value>
 					<auto_increment>false</auto_increment>
@@ -1529,15 +1529,15 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<word_id>12</word_id>
+					<word_id>0</word_id>
 					<id>22</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
 					<physical_name></physical_name>
-					<type>nchar</type>
+					<type>nvarchar(n)</type>
 					<constraint></constraint>
-					<default_value>N</default_value>
+					<default_value></default_value>
 					<auto_increment>false</auto_increment>
 					<foreign_key>false</foreign_key>
 					<not_null>true</not_null>
@@ -1561,7 +1561,7 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<word_id>21</word_id>
+					<word_id>24</word_id>
 					<id>23</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
@@ -1617,7 +1617,7 @@
 			<connections>
 				<relation>
 					<id>7</id>
-					<source>5</source>
+					<source>7</source>
 					<target>6</target>
 					<child_cardinality>1..n</child_cardinality>
 					<parent_cardinality>1</parent_cardinality>
@@ -1770,7 +1770,7 @@
 				</normal_column>
 				<normal_column>
 					<id>28</id>
-					<referenced_column>18</referenced_column>
+					<referenced_column>31</referenced_column>
 					<relation>7</relation>
 					<description>用户所在组织机构的id，为空表示用户为顶级用户，不属于任何组织机构。</description>
 					<unique_key_name></unique_key_name>
@@ -1876,12 +1876,12 @@
 		</table>
 		<table>
 			<id>7</id>
-			<height>170</height>
-			<width>188</width>
+			<height>152</height>
+			<width>226</width>
 				<font_name>宋体</font_name>
 				<font_size>9</font_size>
-			<x>1230</x>
-			<y>798</y>
+			<x>747</x>
+			<y>775</y>
 			<color>
 				<r>128</r>
 				<g>128</g>
@@ -1894,7 +1894,7 @@
 					<target>7</target>
 						<bendpoint>
 							<relative>true</relative>
-							<x>35</x>
+							<x>30</x>
 							<y>40</y>
 						</bendpoint>
 					<child_cardinality>1..n</child_cardinality>
@@ -1905,21 +1905,21 @@
 					<on_update_action>RESTRICT</on_update_action>
 					<source_xp>100</source_xp>
 					<source_yp>80</source_yp>
-					<target_xp>83</target_xp>
+					<target_xp>85</target_xp>
 					<target_yp>100</target_yp>
 					<referenced_column>null</referenced_column>
 					<referenced_complex_unique_key>null</referenced_complex_unique_key>
 				</relation>
 			</connections>
-			<physical_name>sys_dataDictionary</physical_name>
-			<logical_name>数据字典表</logical_name>
-			<description></description>
+			<physical_name>org_organization</physical_name>
+			<logical_name>组织结构表</logical_name>
+			<description>系统组织机构表，记录系统中的所有机构名称。</description>
 			<constraint></constraint>
 			<primary_key_name></primary_key_name>
 			<option></option>
 			<columns>
 				<normal_column>
-					<word_id>6</word_id>
+					<word_id>8</word_id>
 					<id>31</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
@@ -1932,6 +1932,38 @@
 					<foreign_key>false</foreign_key>
 					<not_null>true</not_null>
 					<primary_key>true</primary_key>
+					<unique_key>false</unique_key>
+					<character_set></character_set>
+					<collation></collation>
+					<sequence>
+						<name></name>
+						<schema></schema>
+						<increment>1</increment>
+						<min_value></min_value>
+						<max_value></max_value>
+						<start>1</start>
+						<cache></cache>
+						<cycle>false</cycle>
+						<order>false</order>
+						<description></description>
+						<data_type></data_type>
+						<decimal_size>0</decimal_size>
+					</sequence>
+				</normal_column>
+				<normal_column>
+					<word_id>18</word_id>
+					<id>32</id>
+					<description></description>
+					<unique_key_name></unique_key_name>
+					<logical_name></logical_name>
+					<physical_name></physical_name>
+					<type>nvarchar(n)</type>
+					<constraint></constraint>
+					<default_value></default_value>
+					<auto_increment>false</auto_increment>
+					<foreign_key>false</foreign_key>
+					<not_null>true</not_null>
+					<primary_key>false</primary_key>
 					<unique_key>false</unique_key>
 					<character_set></character_set>
 					<collation></collation>
@@ -1951,10 +1983,10 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<id>32</id>
+					<id>33</id>
 					<referenced_column>31</referenced_column>
 					<relation>8</relation>
-					<description>为NULL表示顶级字典。</description>
+					<description>当前组织机构的父机构id，为NULL时标识该机构为顶级机构。</description>
 					<unique_key_name></unique_key_name>
 					<logical_name>父id。</logical_name>
 					<physical_name>parentId</physical_name>
@@ -1984,47 +2016,15 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<word_id>16</word_id>
-					<id>33</id>
-					<description></description>
-					<unique_key_name></unique_key_name>
-					<logical_name></logical_name>
-					<physical_name></physical_name>
-					<type>nvarchar(n)</type>
-					<constraint></constraint>
-					<default_value></default_value>
-					<auto_increment>false</auto_increment>
-					<foreign_key>false</foreign_key>
-					<not_null>true</not_null>
-					<primary_key>false</primary_key>
-					<unique_key>false</unique_key>
-					<character_set></character_set>
-					<collation></collation>
-					<sequence>
-						<name></name>
-						<schema></schema>
-						<increment></increment>
-						<min_value></min_value>
-						<max_value></max_value>
-						<start></start>
-						<cache></cache>
-						<cycle>false</cycle>
-						<order>false</order>
-						<description></description>
-						<data_type></data_type>
-						<decimal_size>0</decimal_size>
-					</sequence>
-				</normal_column>
-				<normal_column>
-					<word_id>27</word_id>
+					<word_id>1</word_id>
 					<id>34</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
 					<physical_name></physical_name>
-					<type>integer</type>
+					<type>text</type>
 					<constraint></constraint>
-					<default_value></default_value>
+					<default_value>(DATETIME(CURRENT_TIMESTAMP,&apos;localtime&apos;))</default_value>
 					<auto_increment>false</auto_increment>
 					<foreign_key>false</foreign_key>
 					<not_null>true</not_null>
@@ -2048,15 +2048,15 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<word_id>0</word_id>
+					<word_id>12</word_id>
 					<id>35</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
 					<physical_name></physical_name>
-					<type>nvarchar(n)</type>
+					<type>nchar</type>
 					<constraint></constraint>
-					<default_value></default_value>
+					<default_value>N</default_value>
 					<auto_increment>false</auto_increment>
 					<foreign_key>false</foreign_key>
 					<not_null>true</not_null>
@@ -2080,7 +2080,7 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<word_id>24</word_id>
+					<word_id>21</word_id>
 					<id>36</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
